@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="age.css">
+    </head>
+<body>  
+<form name="myform" method="post">
+    <br><br>
+<table class="title">
+    <caption>
+        <h1>Calculate Your Age</h1>
+    </caption>
+    <tr>
+        <td >Date</td>
+        <td>Month</td>
+        <td>Year</td>
+    </tr>
+    <tr> 
+        <td><input type="text" name="date" placeholder="dd" maxlength="2" required></td>
+        <td><input type="text" name="month" placeholder="mm" required maxlength="2"></td>
+        <td><input type="text" name="year" placeholder="yyyy" required maxlength="4"></td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center"><input type="button" value="submit" onclick="calculate()"></td>
+    </tr>
+</table>
+</form> 
+<p id="out"></p>   
+</body>
+<script src="age.js"></script>
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-color:antiquewhite;
+}
+.title{
+    font-size: 20px;
+    color: blueviolet;
+}
+table{
+    width: 520px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #eee;
+    border-radius: 25px;
+}
+td{
+    padding: 10px;
+}
+input[type="text"] {
+    width: 140px;
+    height: 50px;
+    border: 2px solid blueviolet;
+    padding: 12px;
+    font-size: 17px;
+}
+input[type="button"] {
+    width: 150px;
+    height: 50px;
+    background-color:blueviolet;
+    font-size: 20px;
+    color:white;
+}
+#out{
+    font-size: 30px;
+    color:blueviolet;
+    text-align: center;
+}
